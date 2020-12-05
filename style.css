@@ -64,7 +64,7 @@ header h1 {
    font-family: wakandan;
    color: var(--primary);
    font: bolder;
-   font-size: larger;
+   font-size: 2vw;
    cursor: pointer;
 }
 
@@ -79,6 +79,7 @@ header h1 {
 
 .output-field h2 {
    color: var(--secondary);
+   font-size: 2vw;
 }
 
 .output {
@@ -103,4 +104,12 @@ footer {
    text-align: center;
    background-color: none;
    color: var(--secondary);
+}
+
+footer h2 {
+   font-size: 1.8vw;
+}
+
+footer p {
+   font-size: 1.2vw;
 }
