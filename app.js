@@ -8,8 +8,7 @@ var transMusic = document.getElementById("waka_music2");
 
 //^----------------------------------------------------------------
 
-var url = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
-//var url = "https://api.funtranslations.com/translate/ebonics.json";
+var url = "https://api.funtranslations.com/translate/ebonics.json";
 
 var getURL = function () {
    return url + "?text=" + userInput.value;
