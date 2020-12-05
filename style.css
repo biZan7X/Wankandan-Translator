@@ -1,0 +1,106 @@
+* {
+   box-sizing: border-box;
+}
+
+:root {
+   --secondary: #e5e7eb;
+   --primary: #8b5cf6;
+}
+
+@font-face {
+   font-family: "wakandan";
+   src: url(/fonts/BeteNoirNF.ttf);
+}
+
+@font-face {
+   font-family: "african";
+   src: url(/fonts/OutOfAfrica.ttf);
+}
+
+body {
+   margin: 0;
+   background-image: url(/imgs/64555005_2237737659810639_3311999528491548672_n.jpg);
+   font-family: african;
+}
+
+/**---------headers-----------*/
+header {
+   width: 100%;
+   text-align: center;
+   padding: 1rem;
+   background-color: none;
+   color: var(--primary);
+}
+
+header h1 {
+   font-size: x-large;
+}
+
+/**--------input-field--------*/
+
+.input-field {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 1rem;
+   margin-top: 1.3rem;
+}
+
+.input-field #input {
+   margin: 1rem;
+   padding: 1rem;
+   height: 15vh;
+   width: 50%;
+   border-top-left-radius: 2rem;
+   border-bottom-right-radius: 2rem;
+   font: bold;
+   font-size: large;
+}
+
+#btn {
+   padding: 1.3rem 2.3rem;
+   border-radius: 1rem;
+   margin-top: 1rem;
+   font-family: wakandan;
+   color: var(--primary);
+   font: bolder;
+   font-size: larger;
+   cursor: pointer;
+}
+
+/**--------output-field--------*/
+
+.output-field {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 1rem;
+}
+
+.output-field h2 {
+   color: var(--secondary);
+}
+
+.output {
+   border: 1px solid black;
+   padding: 1rem;
+   height: 15vh;
+   width: 50%;
+   border-top-right-radius: 2rem;
+   border-bottom-left-radius: 2rem;
+   background-color: white;
+   font: bolder;
+   font-size: large;
+   font-family: african;
+}
+
+/**------footer------------*/
+
+footer {
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+   background-color: none;
+   color: var(--secondary);
+}
